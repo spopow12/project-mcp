@@ -23,7 +23,7 @@ app.set('trust proxy', 1);
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' ? 'your-frontend-domain.com' : 'http://localhost:3000',
+  origin: process.env.NODE_ENV === 'production' ? 'ofclock.com' : 'http://localhost:3000',
   credentials: true
 }));
 
